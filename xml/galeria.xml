@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="galeria.xsl"?>
+<galeria>
+
+<imagen numero="BMW Serie 1">
+  <image ruta="../images/bmw1.jpg"/>
+  <marca>BMW</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="BMW Serie 2">
+  <image ruta="../images/bmw2.jpg"/>
+  <marca>BMW</marca>
+    <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="BMW Serie 3">
+  <image ruta="../images/bmw3.jpg"/>
+  <marca>BMW</marca>
+    <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="BMW Serie 4">
+  <image ruta="../images/bmw4.jpg"/>
+  <marca>BMW</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+
+<imagen numero=" Seat Leon">
+  <image ruta="../images/seat1.jpg"/>
+  <marca>SEAT</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Seat Ibiza">
+  <image ruta="../images/seat2.jpg"/>
+  <marca>SEAT</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Seat Arona">
+  <image ruta="../images/seat3.jpg"/>
+  <marca>SEAT</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Seat Toledo">
+  <image ruta="../images/seat4.jpg"/>
+  <marca>SEAT</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Corsa">
+  <image ruta="../images/opel1.jpg"/>
+  <marca>Opel</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Astra">
+  <image ruta="../images/opel2.jpg"/>
+  <marca>Opel</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Insignia">
+  <image ruta="../images/opel3.jpg"/>
+  <marca>Opel</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Mokka">
+  <image ruta="../images/opel4.jpg"/>
+  <marca>Opel</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+</galeria>
