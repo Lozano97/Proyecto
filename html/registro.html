@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juan David Lozano Cuadros</title>
+  <link rel="stylesheet" type="text/css" href="../css/proyecto.css">
+  <meta charset="utf-8">
+</head>
+<body>
+<header>
+  <!--Menu de Navegación-->
+  <nav>
+    <div class="navbar">
+      <a href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Modelos 
+          <i class="fa fa-caret-down"></i>
+        </button>
+               <div class="dropdown-content">
+          <a href="../xml/galeria.xml">BMW</a>
+          <a href="../xml/galeria2.xml">Seat</a>
+          <a href="../xml/galeria3.xml">Opel</a>
+        </div>
+        </div>
+          <div class="dropdown">
+            <button class="dropbtn">Financiación 
+            </button>
+        <div class="dropdown-content">
+          <a href="https://www.caixabank.es/particular/home/particulares_es.html">LaCaixa</a>
+          <a href="https://www.bankia.es/es/particulares">Bankia</a>
+          <a href="https://ing.ingdirect.es/pfm/#login/">ING</a>
+        </div>
+          </div>
+          <a href="contacto.html">Contacto</a>
+          <a class="login" href="registro.html">Registrarse</a>
+          <a class="login" href="loggin.html">Iniciar sesión</a>
+    </div>  
+  </nav>
+</header>
+<!-- Formulario -->
+<section id="formulario">
+<div class="row2">
+  <div class="col-75">
+    <div class="contenedor">
+      <form>
+
+        <div class="row2">
+          <div class="col-50">
+            <h1 class="forma">Datos de facturación</h1>
+            <br>
+            <p> Nombre Completo</p>
+            <input type="text" id="fname" name="firstname" placeholder="Ies Maria de Zayas y Sotomayor">
+            <p> Email</p>
+            <input type="text" id="email" name="email" placeholder="email@example.com">
+            <p> Dirección</p>
+            <input type="text" id="adr" name="address" placeholder="Calle Romero, 2">
+            <p> Ciudad</p>
+            <input type="text" id="city" name="city" placeholder="Madrid">
+
+            <div class="row2">
+              <div class="col-50">
+                <p>Provincia</p>
+                <input type="text" id="state" name="state" placeholder="Madrid">
+              </div>
+              <div class="col-50">
+                <p>Codigo Postal</p>
+                <input type="text" id="zip" name="zip" placeholder="28220">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h1 class="forma">Metodo de pago</h1>
+            <br>
+            <p>Tarjeta de credito</p>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <p>Titular</p>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <p>Número</p>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <p>Mes de caducidad</p>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+            <div class="row2">
+              <div class="col-50">
+                <p>Año de caducidad</p>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <p>CVV</p>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>       
+          <input type="checkbox" checked="checked" name="sameadr"> Acepto los terminos y condiciones      
+        <a href="error.html"><input type="submit" value="Registrarme" id="botono"></a>
+      </form>
+    </div>
+  </div>
+  </section>
+    <footer>
+    <h2>Contacto</h2>
+    <ul>
+      <li>Fundador: Juan David Lozano Cuadros</li>
+      <li>Telefono: 999999999</li>
+      <li>Email: Mi.email@email.com</li>
+      <li>Facebook: Compratucoche</li>
+    </ul>
+    
+  </footer>
+</body>
+</html>

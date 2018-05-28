@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="galeria.xsl"?>
+<galeria>
+
+<imagen numero="Corsa">
+  <image ruta="../images/opel1.jpg"/>
+  <marca>Opel</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Astra">
+  <image ruta="../images/opel2.jpg"/>
+  <marca>Opel</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Insignia">
+  <image ruta="../images/opel3.jpg"/>
+  <marca>Opel</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Mokka">
+  <image ruta="../images/opel4.jpg"/>
+  <marca>Opel</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+</galeria>

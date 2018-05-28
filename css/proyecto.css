@@ -71,15 +71,6 @@
 a.login{
   float: right;
 }
-/*Estilo del video*/
-
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-}
 
 /*Menu de imagenes*/
 
@@ -111,10 +102,8 @@ h2.home{
 
  #logo {
   text-align: center;
-  margin-top: 5px;
   font-family: fantasy;
   font-size: 150%;
-
  }
  p.sub{
   font-family: fantasy;
@@ -177,7 +166,7 @@ input[type=text] {
   font-size: 24px;
 }
 
-.btn {
+#botono {
   background-color: #4CAF50;
   color: white;
   padding: 12px;
@@ -187,10 +176,16 @@ input[type=text] {
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
+#botono:hover {background-color: #3e8e41}
 
-.btn:hover {
-  background-color: #45a049;
+#botono:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 span.price {
@@ -410,10 +405,17 @@ span.psw {
 
 #imagen
 {
-  background: blue;
   color: white;
   padding: 50px;
+  float: left;
+  height: 100px;
 }
+#xml{
+  background-image: url("../images/header.jpg");
+  padding: 5px;
+  margin-bottom: -50px;
+}
+
 footer{
   background-image: url("../images/header.jpg");
   width: 100%;
@@ -423,4 +425,31 @@ footer{
   border-color: black;
   width: 100%;
   display: block;
+}
+#footer {
+  position: fixed;
+  bottom: 0px;  
+  color: white;
+  margin-top: 10px;
+}
+
+  #boton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#boton:hover {background-color: #3e8e41}
+
+#boton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

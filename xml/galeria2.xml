@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="galeria.xsl"?>
+<galeria>
+
+
+<imagen numero=" Seat Leon">
+  <image ruta="../images/seat1.jpg"/>
+  <marca>SEAT</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Seat Ibiza">
+  <image ruta="../images/seat2.jpg"/>
+  <marca>SEAT</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Seat Arona">
+  <image ruta="../images/seat3.jpg"/>
+  <marca>SEAT</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+<imagen numero="Seat Toledo">
+  <image ruta="../images/seat4.jpg"/>
+  <marca>SEAT</marca>
+  <web enlace="https://www.ciudaddelautomovil.es/"/>
+</imagen>
+
+</galeria>
