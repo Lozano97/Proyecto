@@ -9,7 +9,7 @@
 </imagen>
 
 <imagen numero="BMW Serie 2">
-  <image ruta="../images/BMW.jpg"/>
+  <image ruta="../images/BMW2.jpg"/>
   <marca>BMW</marca>
     <web enlace="https://www.ciudaddelautomovil.es/"/>
 </imagen>
