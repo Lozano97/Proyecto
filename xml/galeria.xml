@@ -3,7 +3,7 @@
 <galeria>
 
 <imagen numero="BMW Serie 1">
-  <image ruta="../images/dios.jpg"/>
+  <image ruta="../images/bmw.jpg"/>
   <marca>BMW</marca>
   <web enlace="https://www.ciudaddelautomovil.es/"/>
 </imagen>
